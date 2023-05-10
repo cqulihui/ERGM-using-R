@@ -122,7 +122,7 @@ When **"Stochastic-Approximation" method** is used to estimate the model, one ma
 fit01 <- ergm(ergmodel, control = control.ergm(init = coef(fit01))
 ```
 
-**If reapted estaimations fail, one can try to do conditional estimation. **
+**If reapted estimations fail, one can try to do conditional estimation. **
 >For example, the density of the graphs may be fixed to the denstiy for the observation. This is akin to treating the edge parameter as nuisance parameter that is of no interest for estimation. Other conditions to facilitate convergence include fixing the degree distributions (in- and out-degrees) or treating some ties or actors as exogenous to the model. 
 
 `(Lusher, D., Koskinen, J., & Robins, G. (Eds.). (2013). _Exponential random graph models for social networks: Theory, methods, and applications_. Cambridge University Press.)`
