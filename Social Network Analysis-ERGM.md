@@ -45,9 +45,9 @@ nettest
 #### 1.3 The dyadic covariates
 Set the matrix of dyadic covariates.
 ```R
-# For instance
-# dyadic covariate: positive sentment sent to a colleage by an employee
-# the data in the excel file should be a matrix
+# For instance, a matrix "matrixname" represents
+# a dyadic covariate, positive sentment sent to other colleages by an employee.
+# The data in the excel file should be a matrix.
 matrixname <- read_excel("filepath\\filename.xlsx")
 colnames(matrixname) <- nodelist$id
 matrixname <- as.matrix(positive)
