@@ -1,7 +1,7 @@
 ﻿# Exponential Random Graph Models
 ## Specifying and Fitting ERG models with R
 
-* Author: Hui
+* Author: LH
 * Institution: Nanjing Science & Technology University
 * Time: May 3, 2023
 * Note: This file introduces how to specify and fit ERG models (which assume social selection processes) with R. 
