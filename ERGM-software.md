@@ -15,9 +15,7 @@ Run the following code:
 ```R
 # Install the packages
 install.packages('readxl', repos = 'http://cran.rstudio.com/')
-
 install.packages('dplyr', repos = 'http://cran.rstudio.com/')
-
 install.packages('ergm', repos = 'http://cran.rstudio.com/')
 
 # Load the packages
